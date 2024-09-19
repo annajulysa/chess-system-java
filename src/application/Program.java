@@ -1,9 +1,13 @@
 package application;
 
+import boardgame.Position;
+
 public class Program {
 
 	public static void main(String[] args) {
-		System.out.println("oi");
+
+		Position position = new Position(3,4);
+		System.out.println(position);
 
 	}
 
